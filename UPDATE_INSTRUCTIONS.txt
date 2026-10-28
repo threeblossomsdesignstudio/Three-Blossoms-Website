@@ -1,0 +1,27 @@
+THREE BLOSSOMS DESIGN STUDIO — PORTFOLIO EXPANSION
+
+This bundle includes the official Three Blossoms logo and the existing
+NCCU FUEL Symposium gallery, plus these NEW graphic design portfolio works:
+
+- Nine Noble Oaks illustrated identity
+- Cabra wordmark and circular badge
+- Task Lion Tree Services yard sign
+- Girlz Trip 2026 artwork
+- FamiLee Gone Fishin' t-shirt artwork
+- Thanksgiving With the FamiLee animated invitation (silent web version)
+
+HOW TO UPDATE GITHUB PAGES
+1. Extract the ZIP.
+2. Visit github.com/threeblossomsdesignstudio/Three-Blossoms-Website
+3. Upload ALL of the files/folders inside this ZIP to the repository ROOT.
+   Overwrite index.html, portfolio.html, and styles.css when prompted;
+   keep the assets files inside the assets folder.
+4. Commit the changes to main.
+5. Wait for GitHub Pages to redeploy and refresh the browser.
+
+CAUTION:
+- Do not upload just the .zip file.
+- The pre-existing FUEL photos and videos are retained.
+- The new animated invitation is presented as a sample.
+- Confirm you have rights to publicly display all designs and imagery,
+  particularly any third-party illustrations, names, or trademarks.
