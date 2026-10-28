@@ -36,3 +36,20 @@
 .graphic-example figcaption span{line-height:1.5}
 @media(max-width:720px){.graphic-collections{gap:45px}.design-group-head{flex-direction:column;gap:3px}.graphic-example:last-child{max-width:none}}
 @media(max-width:450px){.design-group-head h3{font-size:23px}}
+
+
+/* Three Blossoms custom, non-emoji navigation arrows.
+   The line-work inherits cream or burgundy from the surrounding text. */
+.brand-arrow{display:inline-block;vertical-align:-.18em;width:1.17em;height:1.17em;flex:0 0 auto;fill:none;stroke:currentColor;stroke-width:1.65;stroke-linecap:round;stroke-linejoin:round;transition:transform .22s ease;}
+.brand-arrow--diagonal{margin-left:.3em}
+.brand-arrow--down,.brand-arrow--up{margin-left:.25em}
+a:hover .brand-arrow--diagonal{transform:translate(2px,-2px)}
+a:hover .brand-arrow--down{transform:translateY(3px)}
+a:hover .brand-arrow--up{transform:translateY(-3px)}
+/* Keep these as refined inline links, not native emoji rendering. */
+.text-link{display:inline-flex;align-items:center;gap:8px}
+.text-link .brand-arrow{margin-left:0}
+.nav-cta{display:inline-flex;align-items:center;gap:6px}
+.backtop .brand-arrow{color:#f4bdc5}
+.work-preview-label .brand-arrow,.work-preview-side .brand-arrow{color:#a45869}
+@media(prefers-reduced-motion:reduce){.brand-arrow{transition:none!important}}
